@@ -13,4 +13,4 @@ COPY /requirements.txt . /requirements.txt .
 RUN pip install --upgrade pip && pip install --no-cache-dir -r requirements.txt
 
 # Run the web service on container startup.
-CMD ["python3", "main.py"]
+#CMD ["python3", "main.py"]
