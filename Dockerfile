@@ -6,7 +6,7 @@ FROM python:3-alpine
 WORKDIR /app
 
 # Copy local code to the container image.
-COPY /main.py . /main.py .
+#COPY /main.py . /main.py .
 COPY /requirements.txt . /requirements.txt .
 
 # Install project dependencies
